@@ -15,7 +15,7 @@ func Registro(w http.ResponseWriter, r *http.Request) {
 	err := json.NewDecoder(r.Body).Decode(&t)
 
 	if err != nil {
-		http.Error(w, err.Error()+"Error en los datos recibidos", 400)
+		http.Error(w, err.Error()+" Error en los datos recibidos", 400)
 		return
 	}
 

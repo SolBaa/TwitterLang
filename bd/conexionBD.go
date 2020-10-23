@@ -10,7 +10,7 @@ import (
 
 //MongoCT >mongo ct conecta la base de datps
 var MongoCT = ConectarDB()
-var clientOptions = options.Client().ApplyURI("mongodb+srv://solbaa:ginofionaluna@cluster0.kxgcm.mongodb.net/test")
+var clientOptions = options.Client().ApplyURI("mongodb+srv://solbaa:ginofionaluna@cluster0.kxgcm.mongodb.net/twitterlang")
 
 // ConectarDB es la funcion para conectar la base de datos
 func ConectarDB() *mongo.Client {
